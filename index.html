@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Titre de l'embed -->
+  <meta property="og:title" content="Portfolio de WolfyzDBois">
+
+  <!-- Description de l'embed (facultatif) -->
+  <meta property="og:description"
+    content="Découvrez mon portfolio : qui je suis, mes passions, et mes activités sur Discord et dans la vie">
+
+  <!-- URL de l'image de l'embed (ton logo) -->
+  <meta property="og:image" content="https://wolfyzdev.github.io/Wolfyz-Portfolio/assets/images/my-avatar.png">
+
+  <!-- URL de ton site (le lien partagé) -->
+  <meta property="og:url" content="https://wolfyzdev.github.io/Wolfyz-Portfolio/">
+
+  <!-- Type de contenu (site web) -->
+  <meta property="og:type" content="website">
+  <title>WolfyzDBois</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/fougere.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Thibault Ponsot" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Thibault aka WolfyzDBois</h1>
+
+          <p class="title">Etudiant en informatique</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:thibault@aidejeune.fr" class="contact-link">thibault@aidejeune.fr</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-discord"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Discord</p>
+
+              <a href="https://discord.com/users/787328494853029958" class="contact-link">wolfyzdbois</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Anniversaire</p>
+
+              <time datetime="1982-06-23">13 novembre 2006 </time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Adresse</p>
+
+              <address>Strasbourg, France</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <br />
+        <p class="contact-title">Crédits</p>
+        <a class="contact-title" href="https://github.com/codewithsadee/vcard-personal-portfolio">Repo du portfolio
+          originel</a>
+
+        <br>
+        <li class="contact-item">
+          <div class="icon-box">
+            <a href="./en.html"><ion-icon name="language-outline"></ion-icon></a>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">English Version</p>
+
+            <p><a href="./en.html">Access the English version</a></p>
+          </div>
+        </li>
+        <br>
+        <li class="contact-item">
+          <div class="icon-box">
+            <a href="https://discord.gg/qZCUpZu594"><ion-icon name="logo-discord"></ion-icon></a>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Serveur Discord</p>
+
+            <p><a href="https://discord.gg/qZCUpZu594">Accéder à mon serveur Discord</a></p>
+          </div>
+        </li>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experiences</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Reseaux</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Qui suis-je ?</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Bonjour à vous et bienvenue sur mon site Internet ! 💫</p>
+
+          <p></p>
+
+          <p>Tout d'abord ... qui suis-je ?</p>
+          <p>
+            Je me présente, je m'appelle Thibault Ponsot. Je suis français, et
+            j'habite à Strasbourg (même si ma campagne lorraine reste première dans mon coeur).
+          </p>
+          <p>
+            Je suis étudiant en ingénierie  informatique, ma plus grande
+            passion !
+          </p>
+          <p>
+            J'en ai d'ailleurs énormément ... des sciences à la musique, de la
+            nature et des animaux à l'astronomie ou au monde des livres, je
+            suis touche-à-tout !
+          </p>
+          <p>
+            En ce qui concerne ma personnalité, je dirais que je suis
+            quelqu'un de gentil et de bienveillant, au maximum positif ^^
+          </p>
+          <p>
+            Je suis également à l'écoute et ouvert d'esprit, bien que très
+            tête en l'air.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Ce que je fais dans la vie</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Etudiant</h4>
+
+                <p class="service-item-text">
+                  Je suis étudiant afin de devenir ingénieur en informatique,
+                  dans l'école EPITA à Strasbourg.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développeur</h4>
+                <p class="service-item-text">
+                  Je suis un développeur du dimanche, touchant aussi bien au C que au développement de site.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Bénévole</h4>
+
+                <p class="service-item-text">
+                  Je suis bénévole pour des associations, des serveurs
+                  Discord, ainsi que des créateurs de communauté.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Créateur de contenu</h4>
+
+                <p class="service-item-text">
+                  Je créé du contenu comme des vidéos sur Youtube ou des
+                  streams sur Twitch.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal - ne pas retirer pourne pas casser le modèle du dessus
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="experiences" data-page="experiences">
+        <header>
+          <h2 class="h2 article-title">Experiences</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Scolarité</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Diplôme du Baccalauréat</h4>
+
+              <span>Mention Très bien</span>
+
+              <p class="timeline-text">
+                J'ai décroché en juin 2024 le Baccalauréat mention Très Bien,
+                avec une spécialisation en Mathématiques, en Physique-Chimie,
+                ainsi qu'en NSI et en Maths Expertes. J'ai également décroché
+                le Brevet des Collèges mention très bien quelques années plus
+                tôt.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">EPITA</h4>
+
+              <span>2024 - 2029</span>
+
+              <p class="timeline-text">
+                Je suis actuellement en première année de Prépa Intégré (SUP)
+                de l'école d'ingénieur EPITA, à Strasbourg.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Bénévolat</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">WEB AIDE JEUNE</h4>
+
+              <span>2023 - Présent</span>
+
+              <p class="timeline-text">
+                WEB AIDE JEUNE est une association Loi 1901 d'aide et de
+                soutien au jeune, notamment contre le harcèlement. Je suis
+                bénévole pour cette association depuis 2023. Mes tâches sont :
+                la modération du serveur Discord Aide Jeune afin de garder un
+                espace bienveillant et sain, l'animation du serveur, ainsi que
+                l'administration du serveur Discord "Aide Scolaire".
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CODEUR PRO</h4>
+
+              <span>2022 - Présent</span>
+
+              <p class="timeline-text">
+                CODEUR PRO est une association d'entraide et de soutien pour
+                tout passionné en informatique. Je suis secrétaire générale de
+                l'association, ainsi que fondateur du projet.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stage</h4>
+
+              <span>2017 - Durée de 2 semaines</span>
+
+              <p class="timeline-text">
+                J'ai effectuée dans le cadre de ma scolarité un stage de 2
+                semaines chez l'opticien KRYS GROUP, dans un de leur magasin
+                dans les tâches de vendeur, réparateur et conseiller.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Discord & Twitch</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aide Jeune</h4>
+
+              <span>Modérateur et Animateur <a href="https://discord.gg/aide-jeune-808802480170729532">Rejoindre</a></span>
+
+              <p class="timeline-text">
+                En tant que Modérateur du serveur Aide Jeune, ma mission est
+                de veiller à ce qu'un environnement bienveillant et sain soit
+                présent sur le serveur Discord. Je suis également Animateur
+                sur le serveur, afin d'organiser des animations comme des
+                concours, soirée jeux ou débats hebdomadaires sur le serveur.
+                Enfin, je suis en charge d'autres missions comme la
+                communication ou la création de ressources graphiques.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aide Scolaire</h4>
+
+              <span>Administrateur <a href="https://discord.gg/aide-scolaire-799365073403248693">Rejoindre</a></span>
+
+              <p class="timeline-text">
+                Mon rôle sur le serveur Aide Scolaire est de l'administrer,
+                c'est à dire de le gérer au quotidien, de créer de nouveaux
+                systèmes pour améliorer l'expérience des membres, de gérer les
+                équipes du serveur ainsi que la modération, les évènements et
+                la communication.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Aide Réseaux</h4>
+
+              <span>Responsable de la Modération et du Discord <a href="https://discord.gg/reseaux">Rejoindre</a></span>
+
+              <p class="timeline-text">
+                Mes missions sont diverses et variés sur Aide Réseaux, allant
+                de la gestion des équipes de modération, à la gestion du
+                serveur Discord afin d'améliorer l'expérience des membres.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Natoo</h4>
+
+              <span>Modérateur Twitch et Discord <a href="https://discord.gg/k6hFgkSGXj">Rejoindre</a><a href="https://www.twitch.tv/natoo">Regarder sur Twitch</a></span>
+
+              <p class="timeline-text">
+                En tant que Modérateur pour Natoo, mon rôle est que son
+                serveur Discord ainsi que les streams Twitch restent des
+                endroits bienveillants pour que les membres s'y sentent bien.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Autres communautés</h4>
+
+              <span>Depuis 2020</span>
+
+              <p class="timeline-text">
+                J'ai par le passée travaillé pour de nombreuses communautés
+                sur Discord et sur Twitch, comme Kobayashi, Dymensia ou encore
+                Merryeliot. Je travaille aussi occassionnellement pour des
+                communautés d'amis, comme Hitomori. Mes missions sont et ont
+                été diverses et variés, de la modération à l'animation en
+                passant par l'administration de communauté. J'ai aussi participé à la traduction de bot Discord comme Discotips.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="discord" data-page="discord">
+        <header>
+          <h2 class="h2 article-title">Discord</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="reseaux" data-page="reseaux">
+        <header>
+          <h2 class="h2 article-title">Reseaux</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="mail-unread-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Me contacter</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Par email</h4>
+
+              <span><a href="mailto:thibault@aidejeune.fr" class="contact-link">thibault@aidejeune.fr</a></span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Par Discord</h4>
+
+              <span><a href="https://discord.com/users/787328494853029958">wolfyzdbois</a></span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="newspaper-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">
+              <a href="https://youtube.com/@wolfyzdbois">Blog</a>
+            </h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Utiliser ShareX</h4>
+
+              <span><a href="https://wolfyzdev.github.io/wolfyzblog/blog/sharex/">Voir le blog</a></span>
+
+              <p class="timeline-text">
+                Apprennez à faire de beaux screenshoots avec ShareX. Cet article n'est pas fini. 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Utiliser Tixte</h4>
+
+              <span><a href="https://wolfyzdev.github.io/wolfyzblog/blog/tixte/">Voir le blog</a></span>
+
+              <p class="timeline-text">
+                Apprennez à utiliser Tixte afin d'héberger en ligne vos screenshoots. Cet article n'est pas encore fini.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+
+            <h3 class="h3">
+              <a href="https://youtube.com/@wolfyzdbois">YouTube</a>
+            </h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vidéo de présentation</h4>
+
+              <span><a href="https://youtu.be/L3awAmSR4jw?si=33SA1qAnibZHN4N7">Voir la vidéo</a></span>
+
+              <p class="timeline-text">
+                Sorti le 10 juin 2024, vous permet de découvrir ma châine
+                YouTube.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="globe-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">
+              Mes autres réseaux
+            </h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Twitch</h4>
+
+              <span><a href="https://www.twitch.tv/wolfyzdbois">Voir la chaîne Twitch</a></span>
+
+              <p class="timeline-text">
+                J'y ferrais de temps à autres des petits streams de tout et de rien !
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">X</h4>
+              <span><a href="https://twitter.com/WolfyzDev">Voir le compte X</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Instagram</h4>
+              <span><a href="https://www.instagram.com/wolfyzdev/">Voir le compte Instagram</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Reddit</h4>
+              <span><a href="https://www.reddit.com/user/WolfyzDev">Voir le profil Reddit</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TikTok</h4>
+              <span><a href="https://www.tiktok.com/@wolfyzdev">Voir le compte TikTok</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">GitHub</h4>
+              <span><a href="https://github.com/WolfyzDev">Voir le profil GitHub</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">LinkedIn</h4>
+              <span><a href="https://www.linkedin.com/in/thibault-ponsot/">Voir le profil LinkedIn</a></span>
+              <p class="timeline-text"></p>
+            </li>
+
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
